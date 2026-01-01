@@ -110,17 +110,6 @@ cargo watch  # requires: cargo install cargo-watch
 cargo watch -x run  # auto-run on changes
 ```
 
-## Project Structure
-
-```
-FirstRustProject/
-├── Cargo.toml          # Project metadata and dependencies
-├── Cargo.lock          # Locked dependency versions
-├── src/
-│   └── main.rs         # Main entry point
-└── target/             # Build artifacts (created after build)
-```
-
 ## Quick Start
 
 ```bash
